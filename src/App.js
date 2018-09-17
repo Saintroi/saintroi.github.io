@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/header/header';
 import About from './components/about/about';
-import Resume from './components/resume/resume';
+import Skills from './components/skills/skills';
 import Portfolio from './components/portfolio/portfolio';
-import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import resumeData from './resumeData';
 class App extends Component {
@@ -12,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header resumeData={resumeData}/>
         <About />
-        <Resume />
+        <Skills />
         <Portfolio />
         <Footer />
       </div>
