@@ -1,0 +1,36 @@
+/* Projects Stylesheet */
+
+#project{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    background: #ffffff;
+    --primary-color: rgb(0,0,0);
+    --secondary-color: rgb(50, 100, 143);
+    --teritary-color: rgb(116, 115, 114);
+    --primary-text-color: #fff;
+
+
+}
+
+#project h1{
+    font-size: 75px;
+    color: var(--secondary-color);
+    padding-top: 20px;
+    padding-bottom: 66px;
+}
+
+#project p{
+    font-size: 22px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#project p li{
+    text-align: left;
+    padding-left: 250px;
+    padding-right: 250px;
+    line-height: 25px;
+}

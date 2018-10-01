@@ -11,7 +11,7 @@ export default class Header extends Component {
        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
        <li><a className="smoothscroll" href="#about">About</a></li>
        <li><a className="smoothscroll" href="#skills">Skills</a></li>
-       <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+       <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
      </ul> {/* end #nav */}
    </nav> {/* end #nav-wrap */}
    <div className="row banner">
@@ -20,10 +20,10 @@ export default class Header extends Component {
        <h3>I'm a {data.location} based <span>software developer</span>, <span>tech wizard</span> and <span>musician.</span> Let's create awesome software and make an impact on the world!</h3>
        <hr />
        <ul className="social">
-         <li><a href="#"><i className="fa fa-facebook" /></a></li>
-         <li><a href="#"><i className="fa fa-twitter" /></a></li>
-         <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-         <li><a href="#"><i className="fa fa-instagram" /></a></li>
+         <li><a href="https://www.facebook.com/Saintroi"><i className="fa fa-facebook" /></a></li>
+         <li><a href="https://twitter.com/Saintroi_"><i className="fa fa-twitter" /></a></li>
+         <li><a href="https://www.linkedin.com/in/adnelson21/"><i className="fa fa-linkedin" /></a></li>
+         <li><a href="https://www.instagram.com/saintroi/"><i className="fa fa-instagram" /></a></li>
        </ul>
      </div>
    </div>

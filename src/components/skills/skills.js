@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Resume from '../resume/resume';
+
 export default class Skills extends Component {
   render() {
     return (
@@ -49,7 +52,9 @@ export default class Skills extends Component {
           </div>{/*End Skills*/}
 
           <div class="resume-link">
-          <h1>For more info on my experience, click the arrow below to see my extended writeup. WARNING: It's a lot of reading!</h1>
+          <h1>For more info on my experience, click <Link to="/resume">here</Link> to see my extended writeup. WARNING: It's a lot of reading!</h1>
+
+
           </div>
       </section>
     );

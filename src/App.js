@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Skills from './components/skills/skills';
-import Portfolio from './components/portfolio/portfolio';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import Footer from './components/footer/footer';
-import resumeData from './resumeData';
-class App extends Component {
+import Home from './Pages/Home';
+import Resume from './Pages/Resume';
+import SageConn from './Pages/SageConn'
+
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData}/>
-        <About />
-        <Skills />
-        <Portfolio />
+        <Switch>
+          <Route exact path="/projects/sageconn" component={SageConn} />
+          <Route path="/resume" component={Resume} />
+          <Route exact path="/" component={Home} />
+        </Switch>
         <Footer />
       </div>
     );

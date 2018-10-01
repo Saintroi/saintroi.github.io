@@ -3,7 +3,7 @@ export default class Resume extends Component {
   render() {
     return (
         <section id="resume">
-        
+          <div id="home"></div>
         {/* Education
       ----------------------------------------------- */}
         <div className="row education">
@@ -42,7 +42,7 @@ export default class Resume extends Component {
                   helped create software for internal use that let the company gather and see data in a compelling way. This jumpstarted the work that I've been
                   doing as a full time staff member. <br />
                   <br />
-                  Since I came on full time in January, we've change the name of the company from Golden Construction & Appleseed Workshop to Creature. 
+                  Since I came on full time in January, we've change the name of the company from Golden Construction & Appleseed Workshop to Creature.
                   I came on as not only a software developer, but the primary IT technician for the company so I had my hands full creating a new domain
                   to match the company name change, moving everyone's emails over, and then continuing to completely overhaul the internal systems and network
                   to get things modernized and follow best practice.<br />
@@ -63,16 +63,16 @@ export default class Resume extends Component {
                 <p>
                   Here I was primarily involved in the IT side of things, I learned a lot about higher level IT tasks and systems management.
                   I had previously used an image server for the easy deployment of custom Windows installs to computers and found that there wasn't
-                  one being used at Insuresoft, so I guaged interest and ended up creating one on my own over the summer. 
+                  one being used at Insuresoft, so I guaged interest and ended up creating one on my own over the summer.
                   <br />
                   <br />
                   In the fall I continued my MDT work and
-                  also helped a returning intern work on a VB.NET project to allow automated patch deployment to customer systems. During that I got to parse and re-write the 
+                  also helped a returning intern work on a VB.NET project to allow automated patch deployment to customer systems. During that I got to parse and re-write the
                   longest SQL I have ever seen, which was terrifying but ended up being really fun!
                   <br />
                   <br />
                   This job gave me some great friends and invaluable experience. For the first time I felt like a member of a team and had real responsibility that affected
-                  the company as a whole. I learned much more than new technological skills, I learned a lot about what it takes to run a small business, what values the leaders of businesses should have, 
+                  the company as a whole. I learned much more than new technological skills, I learned a lot about what it takes to run a small business, what values the leaders of businesses should have,
                   and how to treat others as well as how I like to be treated. Insuresoft is a wonderful place to work and learn, I am extremely grateful that I had the opportunity.
                 </p>
               </div>
@@ -123,7 +123,7 @@ export default class Resume extends Component {
                   We kept that department running with an efficiancy that was unprecedented in my time there and I was proud of the work we were doing.
                   <br />
                   <br />
-                  While I was there, I helped convert an entire department from Windows laptops to Macbook Pros, cleaned up and organized an insane inventory room, and 
+                  While I was there, I helped convert an entire department from Windows laptops to Macbook Pros, cleaned up and organized an insane inventory room, and
                   replaced 50+ computers in a student-athlete study hall. I became "the Mac guy" after having no OSX experience, I learned how to replace laptop internals,
                   and proudly earned my reputation throughout the department as the guy who could get stuff fixed when it needed to, no matter what.
                   <br />
