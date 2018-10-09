@@ -51,10 +51,8 @@ export default class Skills extends Component {
             </div>
           </div>{/*End Skills*/}
 
-          <div class="resume-link">
+          <div className="resume-link">
           <h1>For more info on my experience, click <Link to="/resume">here</Link> to see my extended writeup. WARNING: It's a lot of reading!</h1>
-
-
           </div>
       </section>
     );
