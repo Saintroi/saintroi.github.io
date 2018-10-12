@@ -38,7 +38,7 @@ export default class Resume extends Component {
                 <p className="info">IT Specialist / Software Developer <span>•</span> <em className="date">August 2017 - Present</em></p>
                 <p>
                   I currently work for a construction company in downtown Birmingham that's trying to put a new spin on the construction industry.
-                  Here, I've been a huge player in the company's advances in technology. I started out as an intern during my last semester of school where I
+                  Here, I've helped push and guide the company's advances in technology. I started out as an intern during my last semester of school where I
                   helped create software for internal use that let the company gather and see data in a compelling way. This jumpstarted the work that I've been
                   doing as a full time staff member. <br />
                   <br />

@@ -15,7 +15,7 @@
     --primary-text-color: #fff;
 }
 
-#portfolio card{
+#portfolio .card{
     position: relative;
     text-align: center;
     display:flex;
