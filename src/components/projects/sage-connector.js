@@ -9,8 +9,7 @@ import 'brace/theme/tomorrow_night'
 export default class SageConn extends Component {
   render() {
     const data = this.props.projectData;
-    //const dbcode = Prism.highlight(data.databaseCode, Prism.languages.python, 'python')
-    //const dbcode = data.databaseCode;
+
     return (
         <section id="project">
         <div id="home"></div>
