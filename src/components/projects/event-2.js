@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './projects.css';
 import AceEditor from 'react-ace'
+import { Link } from 'react-router-dom';
 
 import 'brace/mode/python'
 import 'brace/mode/csharp'
@@ -14,26 +15,21 @@ export default class Event2 extends Component {
         <section id="project">
         <div id="home"></div>
             <h1>Sage Web Viewer (Event 2)</h1>
-            <p> This project is one of my favorite accomplishments in my developing career.
-                It's unique, helpful, and it solved some challenging problems.<br></br><br></br>
-                The company used Sage Accounting to store transaction data for construction jobs,
-                including scanned invoice images. Some of this was uploaded to Procore, but the
-                more detailed information wasn't and we had users that needed access to that.
-                We set out to create an application to do that, which consisted of 2 parts: a locally hosted
-                API and a web application. This page details the former, I've separated the latter
-                onto a different project page.<br></br><br></br>
+            <p> This project was probably the most ambitious and time-crunched of my time at Creature. Previously, detailed financial information for our construction projects was available only
+                through a Macro-Enabled Excel Spreadsheet called EventOne, which connected to the Sage Accounting database. Several issues arose with this, including the sheet not working on newer
+                versions of Excel, and having to be connected to our local network to access this information. Rather than allow the use of old, buggy tech to continue, we were tasked with creating
+                something of our own that resolved these issues.
+                
+                <br></br> <br></br>
+                
+                The timetable for this was approximately 2 months, due to the overwhelming need for access to this data and also the limited time 
+                we had before our other developer (a student intern) started his out-of-state internship. While he wrapped up school for the semester, I started on the local portion that
+                connected to the Sage Accounting Database which I detail <a><Link to="/projects/sageconn">here.</Link> </a> Once he was done, we took the structure from our existing application
+                that was designed to gather information from <a href="https://www.procore.com/">Procore</a> and used it to create a web application that allowed constant, reliable access to this information.
 
-                Previously, they'd been using a complicated macro-enabled Excel spreadsheet to access
-                this data, so that's where I started. I looked at the VBA code and how it connected
-                to the Pervasive SQL database of Sage Accounting. I also worked with the CFO to open
-                the database via Microsft Access and study the contents of the tables. From there,
-                I sought to create a database connector and write a query that gave me the data I
-                was looking for. <br></br><br></br>
+                <br></br> <br></br>
 
-                I decided to use Python as I'm most familiar with it, and I figured it could be a light solution.
-                I created a basic <a href="http://flask.pocoo.org/"> Flask </a> app and created the database class below using
-                a cool SQL query builder called <a href="https://github.com/kayak/pypika">PyPika </a> and a powerful module
-                called <a href="https://github.com/mkleehammer/pyodbc">PyODBC</a> that let me connect to the database.
+                This application was primarily written in Node.js, with a heavy reliance upon <a href="https://reactjs.org/">React</a> and <a href="https://graphql.org/">GraphQL</a> with a <a href="https://www.postgresql.org/">PostgreSQL</a> database.
             </p>
 
             <AceEditor
