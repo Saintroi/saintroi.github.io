@@ -31,7 +31,7 @@ export default class SageConn extends Component {
                 was looking for. <br></br><br></br>
 
                 I decided to use Python as I'm most familiar with it, and I figured it could be a light solution.
-                I created a basic <a href="http://flask.pocoo.org/"> Flask </a> app and created the database class below using
+                I created a basic <a href="https://flask.pocoo.org/"> Flask </a> app and created the database class below using
                 a cool SQL query builder called <a href="https://github.com/kayak/pypika">PyPika </a> and a powerful module
                 called <a href="https://github.com/mkleehammer/pyodbc">PyODBC</a> that let me connect to the database.
             </p>
