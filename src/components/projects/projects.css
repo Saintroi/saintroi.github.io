@@ -34,3 +34,7 @@
     padding-right: 250px;
     line-height: 25px;
 }
+
+#project img{
+    width: 60%;
+}
