@@ -21,10 +21,10 @@ export default class Portfolio extends Component {
               <p>A web application that allows users to see information pulled from Sage Accounting.</p>
             </div>{/* event 2 end */}
             <div className="card">
-              test
+              COMING SOON
             </div>{/* sage connector end */}
             <div className="card">
-              test
+              COMING SOON
             </div>{/* sage connector end */}
           </div> {/* portfolio end */}
       </section>
