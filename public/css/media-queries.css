@@ -104,6 +104,7 @@
       background: transparent !important;
       letter-spacing: 1.5px;  
       width: auto;
+      background: red;
       position: fixed;
       top: 0;
       right: 0;
@@ -140,7 +141,7 @@
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
-	   display: block;
+	   display: none;
 	}
 
    /* hide menu panel */
@@ -345,7 +346,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   #nav-wrap ul#nav { width: auto; float: none; display: none;}
 
    /* header styles
    -------------------------------------------------------------------- */
