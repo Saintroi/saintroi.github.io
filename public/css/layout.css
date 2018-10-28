@@ -71,14 +71,12 @@ header .banner-text h1 {
    color: var(--primary-color);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: var(--primary-color);
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
